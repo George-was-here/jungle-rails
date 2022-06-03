@@ -25,7 +25,8 @@ gem 'sdoc', group: :doc
 # gem 'redis', '~> 4.0'
 # Use Active Model has_secure_password
 gem 'bcrypt', '~> 3.1.7'
-
+# Use autoprefixer to fix error explicitly
+gem 'autoprefixer-rails', '>= 9.1.0'
 # FontAwesome & Bootstrap Styling
 # gem 'bootstrap-sass', '~> 3.3.6'
 gem 'bootstrap', '~> 5.0.1'
@@ -33,6 +34,9 @@ gem 'font-awesome-rails'
 
 # Money managing
 gem 'money-rails'
+
+# fix
+gem 'mini_racer', platforms: :ruby
 
 # Stripe
 gem 'stripe'
