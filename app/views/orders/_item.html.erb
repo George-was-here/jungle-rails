@@ -1,0 +1,25 @@
+<main class="container">
+    <section class="categories-show">
+
+<tr> 
+  <td class="ordershowphoto">
+    <%= image_tag product.image.tiny.url %>
+  </td>
+  <td>
+    <h5><%= product.name %></h5>
+    <br>
+  </td>
+  <td>
+    <p><%= product.description %></p>
+  </td>
+  <td>
+    qty: <%= quantity %>
+    </td>
+    <td>
+    <%= humanized_money_with_symbol product.price %>
+  </td>
+</tr>
+
+  </section>
+</main>
+
