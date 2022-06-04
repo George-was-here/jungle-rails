@@ -1,0 +1,26 @@
+h1 {
+  margin-top: 25px;
+}
+
+.widgetContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  .widget {
+    width: 250px;
+    height: 100px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: dotted 3px lightgreen;
+    background-color: green;
+    color: white;
+    text-align: center;
+    span {
+      font-size: 16px;
+    }
+  }
+}
