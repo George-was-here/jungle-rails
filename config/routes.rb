@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
   
+  get 'sessions/new'
+  get 'sessions/create'
+  get 'sessions/destroy'
+  get 'user/new'
+  get 'user/create'
   root to: 'products#index'
 
   resources :products, only: [:index, :show]
@@ -74,7 +79,11 @@ Rails.application.routes.draw do
   #     resources :products
   #   end
 
-  get '/signup' => 'users#new'
-  post '/users' => 'users#create']]
+  get '/login' => 'sessions#new'
+  post '/login' => 'sessions#create'
+  get '/logout' => 'sessions#destroy'
+
+  get '/signup' => 'user#new'
+  post '/users' => 'user#create'
 
 end
