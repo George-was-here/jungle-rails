@@ -11,4 +11,13 @@ class User < ActiveRecord::Base
       password_confirmation.nil? ? false : !password_confirmation.empty?
     end
 
+    def authenticate_with_credentials(email, password)
+      @user = User.find_by email: params[:email]
+      if user && user.authenticate(params[:password])
+        return @user
+      else
+        return nil
+      end 
+    end
+
 end
