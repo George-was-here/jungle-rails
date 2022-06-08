@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
   has_secure_password
+
   validates :email, uniqueness: true
   validates :email, presence: true
   validates :first_name, presence: true
@@ -11,13 +12,15 @@ class User < ActiveRecord::Base
       password_confirmation.nil? ? false : !password_confirmation.empty?
     end
 
-    def authenticate_with_credentials(email, password)
-      @user = User.find_by email: params[:email]
-      if user && user.authenticate(params[:password])
-        return @user
-      else
-        return nil
+    def self.authenticate_with_credentials(email, password)
+      user = User.find_by(email: email.downcase.strip)
+      if user && user.authenticate(password)
+        return user
       end 
+        return nil
     end
 
+    def name
+      "#{first_name} #{last_name}"
+    end
 end

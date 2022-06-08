@@ -32,6 +32,8 @@ gem 'autoprefixer-rails', '>= 9.1.0'
 gem 'bootstrap', '~> 5.0.1'
 gem 'font-awesome-rails'
 
+gem "auto_strip_attributes", "~> 2.2"
+
 # Money managing
 gem 'money-rails'
 
@@ -61,6 +63,8 @@ group :development, :test do
   gem 'dotenv-rails'
   gem 'rspec-rails', '~> 5.1'
   gem 'net-smtp', require: false
+  gem "cypress-rails"
+  gem 'database_cleaner-active_record'
 end
 
 group :development do
