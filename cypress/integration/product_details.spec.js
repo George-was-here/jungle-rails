@@ -13,5 +13,6 @@ describe("Basic functionality of Jungle", () => {
     cy.get('article > a')
       .first()
       .click();
+      
   });
 });
