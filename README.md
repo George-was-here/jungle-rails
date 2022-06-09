@@ -19,12 +19,12 @@ If Rails is complaining about authentication to the database, uncomment the user
 
 ## Screenshots
 
-[Jungle Home Page!](docs/a-full-cart.png)
-[User Login Page!](docs/user-login.png)
-[A Full Cart!](docs/a-full-cart.png)
-[Admin Dashboard!](docs/admin-dashboard.png)
-[Admin Add Category Page!](docs/admin-add-category.png)
-[About Us!](docs/about-us.png)
+![Jungle Home Page!](https://github.com/George-was-here/jungle-rails/blob/master/docs/home-screen.png?raw=true)
+![User Login Page!](https://github.com/George-was-here/jungle-rails/blob/master/docs/user-login.png?raw=true)
+![A Full Cart!](https://github.com/George-was-here/jungle-rails/blob/master/docs/a-full-cart.png?raw=true)
+![Admin Dashboard!](https://github.com/George-was-here/jungle-rails/blob/master/docs/admin-dashboard.png?raw=true)
+![Admin Add Category Page!](https://github.com/George-was-here/jungle-rails/blob/master/docs/admin-add-category.png?raw=true)
+![About Us!](https://github.com/George-was-here/jungle-rails/blob/master/docs/about-us.png?raw=true)
 
 ## Stripe Testing
 
