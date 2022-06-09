@@ -25,6 +25,7 @@ If Rails is complaining about authentication to the database, uncomment the user
 ![Admin Dashboard!](https://github.com/George-was-here/jungle-rails/blob/master/docs/admin-dashboard.png?raw=true)
 ![Admin Add Category Page!](https://github.com/George-was-here/jungle-rails/blob/master/docs/admin-add-category.png?raw=true)
 ![About Us!](https://github.com/George-was-here/jungle-rails/blob/master/docs/about-us.png?raw=true)
+![Zoomed Out Home Page!](![About Us!](https://github.com/George-was-here/jungle-rails/blob/master/docs/home-page-zoomed-out.png?raw=true))
 
 ## Stripe Testing
 
