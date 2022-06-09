@@ -19,6 +19,13 @@ If Rails is complaining about authentication to the database, uncomment the user
 
 ## Screenshots
 
+[Jungle Home Page!](docs/a-full-cart.png)
+[User Login Page!](docs/user-login.png)
+[A Full Cart!](docs/a-full-cart.png)
+[Admin Dashboard!](docs/admin-dashboard.png)
+[Admin Add Category Page!](docs/admin-add-category.png)
+[About Us!](docs/about-us.png)
+
 ## Stripe Testing
 
 Use Credit Card # 4111 1111 1111 1111 for testing success scenarios.
@@ -29,7 +36,8 @@ More information in their docs: <https://stripe.com/docs/testing#cards>
 
 - Ruby
 - Rails 
-- 
+- CSS
+- ERB
 
 ## Dependencies
 
